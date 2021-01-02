@@ -1,0 +1,23 @@
+{
+  "name": "bootjquery",
+  "version": "1.0.0",
+  "description": "Práctica de Jquery y Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielPaps/practicaboots.git"
+  },
+  "keywords": [
+    "bootraps",
+    "jquery"
+  ],
+  "author": "Gabriel Omar Caruso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielPaps/practicaboots/issues"
+  },
+  "homepage": "https://github.com/gabrielPaps/practicaboots#readme"
+}
