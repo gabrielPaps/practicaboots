@@ -1,3 +1,10 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #131313;
+}
 nav ul {
   width: 100%;
   margin-left: 30%;
@@ -11,9 +18,46 @@ nav ul {
 }
 
 .jumbotron {
+  display: flex;
+  justify-content: center;
+  border-radius: 0%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/1.jpg");
   background-size: cover;
   color: #fff;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0;
+}
+.card .card-header {
+  text-align: center;
+  font-size: 1.3rem;
+  color: whitesmoke;
+  background-color: #0069d9;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-body p {
+  text-align: center;
+  font-size: 1.2em;
+}
+.card .card-body span {
+  background-color: #0069d9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+.card .card-body span:hover {
+  background-color: rgba(0, 105, 217, 0.6);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */
